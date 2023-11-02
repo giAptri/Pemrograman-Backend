@@ -27,6 +27,7 @@ Route::put('/animals', [AnimalController::class, 'update']);
 
 Route::delete('/animals', [AnimalController::class, 'destroy']);
 
+//pertemuan5
 Route::get('/students', [StudentController::class, 'index']);
 
 Route::post('/students', [StudentController::class, 'store']);
