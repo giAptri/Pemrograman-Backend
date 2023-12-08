@@ -14,9 +14,9 @@ const {index, store, update, destroy} = require("./controller/fruitController.js
  * - Jalankan program: nodejs app.js
  */
 const main = () => {
-  console.log("Method index - Menampilkan Buah");
+  console.log("Method index - Menampilkan seluruh Buah");
   index();
-  console.log("\nMethod store - Menambahkan buah Pisang");
+  console.log("\nMethod store - Menambahkan 1 buah Pisang");
   store("Pisang");
   console.log("\nMethod update - Update data 0 menjadi Kelapa");
   update(0, "Kelapa");
